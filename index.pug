@@ -1,0 +1,78 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="utf-8")
+    link(rel="stylesheet", href="css/gannet.css" type="text/css")
+    title gannet-test
+    
+    style(type="text/css")
+      | #temp-wrapper{ width: 800px; margin: 0 auto;}
+      | .temp-article{ width: 95%; margin: 0 auto; margin-top: 20px; margin-bottom: 20px; padding: 20px; border-bottom: #555555 dashed 1px; }
+
+      
+  body#temp-wrapper
+    
+    article.temp-article
+      h1 Title h1 見出し
+      h2 Title h2 見出し
+      h3 Title h3 見出し
+      h4 Title h4 見出し
+      h5 Title h5 見出し
+      h6 Title h6 見出し
+        
+    article.temp-article
+      p: a(href="https://github.com/sierra2501/gannet") Github | gannet
+    
+    article.temp-article
+      p gannetは「カツオドリ」という意味です。個人開発をする際、鳥の名称をつけています。由来は昔関わった案件でプロトタイプを作ったのですが、そのシステムの通称が「カツオドリ」の天敵だったからです。
+
+    article.temp-article
+      dl
+        dt gannetとは？
+        dd
+          | sierraが作ったCSSフレームワークです。
+          | クリエイティブコモンズBY-SA 4.0で利用できます。
+          
+    article.temp-article
+      blockquote
+        p Cascading Style Sheets (CSS) はスタイルシート言語であり、HTML や XML (方言である SVG, MathML, XHTML などを含む) で記述された文書の、体裁や見栄えを表現するために用いられます。 CSS は、要素が画面上で (あるいは紙や音声といった別のメディア上で) どのように表現されるのかを定義します。
+        cite MDN | CSS: カスケーディングスタイルシート
+
+    article.temp-article
+      ul
+        li リスト1
+        li リスト2
+        li リスト3
+        li リスト4
+        li リスト5
+            
+    article.temp-article
+      ol
+        li リスト1
+        li リスト2
+        li リスト3
+        li リスト4
+        li リスト5
+    
+    article.temp-article
+      table
+        tr
+          th 
+          th Label
+          th ラベル
+          th らべる
+        tr
+          td 項目1
+          td Label1
+          td ラベル１
+          td らべる壱
+        tr
+          td 項目2
+          td Label2
+          td ラベル２
+          td らべる弐
+        tr
+          td 項目3
+          td Label3
+          td ラベル３
+          td らべる参
